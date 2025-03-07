@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Наурызға шақыру</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://sun9-32.userapi.com/impg/EIMKnBNTHTSFYLvTonSElF0LcUEKx5jqhSg_LQ/puzFGErjnDw.jpg?size=1200x675&quality=96&sign=07b9403f47707cd5435876e899347d88&type=album');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: inline-block;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #e75480;
+        }
+        .details {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover {
+            background: #d14781;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script>
+        function showDetails() {
+            document.getElementById('details').classList.remove('hidden');
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌸 Құрметті Ақпараттық жүйелер мамандығының аруы! 🌸</h1>
+        <button class="btn" onclick="showDetails()">Мені бас!</button>
+
+        <div id="details" class="hidden">
+            <p class="details">Сіздерді 8 Наурыз мерекесіне орай <b>«Лаффа»</b> кафесіне шақырамыз!</p>
+            <p class="details">📅 <b>Күні:</b> 8 наурыз</p>
+            <p class="details">⏰ <b>Уақыты:</b> 17:00</p>
+            <p class="details">📍 <b>Орны:</b> Лаффа</p>
+            <a href="https://2gis.kz/almaty/geo/70000001057824796/76.899614,43.248774" target="_blank" class="btn">📍 Мекенжайды көру</a>
+            <p class="details">💐 Сіздерді қуана күтеміз! 💖</p>
+        </div>
+    </div>
+
+</body>
+</html>
